@@ -41,6 +41,11 @@ a {
   padding: 1px 20px 20px 90px;
   position: relative;
 }
+.review-card-for-button {
+  margin-bottom: 100px;
+  padding: 1px 20px 20px 90px;
+  position: relative;
+}
 .review-card .rating {
   position: absolute;
   top: -20px;
@@ -58,4 +63,21 @@ a {
 .review-card small {
   margin-right: 10px;
   color: #777;
+}
+
+.sort-button{
+  background: #8e2ad6;
+  border: none;
+  padding: 0.3em 1.5em;
+  font-size: 2em;
+  color: white;
+  font-family: "Poppins";
+  cursor: pointer;
+  position: absolute;
+  left: -20px;
+  transition: 50ms all
+}
+.sort-button:hover{
+  background: #5b198a; 
+  transition: 50ms all
 }
